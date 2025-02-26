@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>CosmoVoid | Learn</title>
+      <link rel="icon" type="image/png" sizes="512x512" href="Assets\favicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- CSS style sheets -->
+      <link rel="stylesheet" href="CSS\navbar.css">
+      <link rel="stylesheet" href="CSS\footer.css">
+      <link rel="stylesheet" href="CSS\learn.css">
+
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+      <!-- Google Fonts -->
+      <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+      />
+
+      <!-- Font Awesome CDN -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+      <!-- Boxicons CSS -->
+      <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+   </head>
+
+   <body>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="logo_item">
+          <i class="bx bx-menu" id="sidebarOpen"></i>
+          <img src="Assets\LOGO\logo_white.png" alt="logo"></i>
+        </div>
+        <div class="navbar_content">
+          <i class="bi bi-grid"></i>
+          <i class='bx bx-sun' id="darkLight"></i>
+          <div class="nav-btn">
+           <a href="learn.html"><span>Explore</span></a>
+         </div>
+        </div>
+      </nav>
+      <!-- sidebar -->
+      <nav class="sidebar">
+        <div class="menu_content">
+          <ul class="menu_items">
+            <!-- Start -->
+            <li class="item">
+              <a href="index.html" class="nav_link">
+                <span class="navlink_icon">
+                 <i class='bx bx-home'></i>
+                </span>
+                <span class="navlink">Home</span>
+              </a>
+            </li>
+            <!-- End -->
+            <li class="item">
+              <a href="learn.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-book-open'></i>
+                </span>
+                <span class="navlink">Learn More</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="timeline.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bxs-calendar'></i>
+                </span>
+                <span class="navlink">Timeline</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="biograpgy/index.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-street-view'></i>
+                </span>
+                <span class="navlink">Biographies</span>
+              </a>
+            </li>
+            <li class="item">
+             <a href="facilities.html" class="nav_link">
+               <span class="navlink_icon">
+                 <i class='bx bxs-chalkboard'></i>
+               </span>
+               <span class="navlink">Facilities</span>
+             </a>
+           </li>
+           <li class="item">
+             <a href="parallax\index.html" class="nav_link">
+               <span class="navlink_icon">
+                 <i class='bx bxs-circle'></i>
+               </span>
+               <span class="navlink">Chandrayan-3</span>
+             </a>
+           </li>
+           <li class="item">
+             <a href="gallery.html" class="nav_link">
+               <span class="navlink_icon">
+                 <i class='bx bxs-dashboard' ></i>
+               </span>
+               <span class="navlink">Gallery</span>
+             </a>
+           </li>
+          </ul>
+          <!-- Sidebar Open / Close -->
+          <div class="bottom_content">
+            <div class="bottom expand_sidebar">
+              <span> Expand</span>
+              <i class='bx bx-log-in' ></i>
+            </div>
+            <div class="bottom collapse_sidebar">
+              <span> Collapse</span>
+              <i class='bx bx-log-out'></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+       <section class="padding-other-than-navbar">
+
+
+        <!-- Learn-Hero-Section -->
+        <div class="learn-hero container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="learn-bg col-10 col-sm-8 col-lg-6">
+              <img src="Assets\learn-bg-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="learn-title display-5 fw-bold lh-1 mb-3 text-white">ISRO - Exploring the Unexplored</h1>
+              <p class="lead learn-para text-white">Greetings and welcome to the educational section of our website! Here, you will find a plethora of content that covers the journey of ISRO from its inception to the present day, providing you with ample opportunities to learn about this remarkable organization..</p>
+              <div class="cta-btn d-grid gap-2 d-md-flex justify-content-md-start">
+                <div class="btn hero-cta-btn">
+                  <a href="#our-content"><span>Our Content</span></a>
+                </div>
+                <div class="btn hero-cta-btn">
+                  <a href="#external-content"><span>External Content</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Horizontal-Rule -->
+        <div class="hor-rule">
+          <hr class="line">
+        </div>
+
+
+
+        <!-- Our Content -->
+        <section id="our-content" class="our-content"> 
+          <h1 class="learnpage-title">Our Content</h1>
+          <p class="learnpage-para">At this place, you will find 20 modules encompassing all the crucial information about ISRO, spanning from its inception to the present day - everything you need to be well-informed.</p>
+
+          <section class="modules">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+
+              <!-- Module-1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <b>Module-1: Introduction to ISRO</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    The Indian Space Research Organisation (ISRO) is the space agency of the Government of India, established in 1969. It is responsible for the research and development of space technology and its applications. Over the years, ISRO has achieved significant milestones and emerged as a prominent player in the global space arena. It has been instrumental in launching a series of satellites for various purposes, including communication, remote sensing, weather forecasting, navigation, and scientific research.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-1-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    <b>Module-2: Historical Milestones of ISRO</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO has a rich history of accomplishments and breakthroughs in space exploration. One of its most significant achievements was the successful launch of Aryabhata, India's first satellite, on April 19, 1975. This marked India's entry into the world of space technology. Since then, ISRO has continued to make remarkable strides in satellite development and space missions.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-2-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    <b>Module-3: Notable Astronauts and Scientists</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO has been home to several remarkable astronauts and scientists who have played pivotal roles in the organization's success. Some of the notable astronauts include Rakesh Sharma, who became the first Indian to travel to space aboard the Soviet spacecraft Soyuz T-11 in 1984. Additionally, Kalpana Chawla, an Indian-American astronaut, was part of the NASA Space Shuttle Columbia crew but remains an inspiration to many in India. Among the key scientists, Dr. Vikram Sarabhai is regarded as the father of the Indian space program for his vision and leadership in establishing ISRO.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-3-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    <b>Module-4: The First Indian Rocket</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO's journey began with the launch of its first indigenous rocket, SLV-3 (Satellite Launch Vehicle-3), on July 18, 1980. SLV-3 was designed to deploy satellites in low earth orbit and paved the way for future space missions. Although the launch was partially successful, it laid the foundation for the development of more advanced launch vehicles.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-4-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    <b>Module-5: ISRO's Budget and Funding</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO operates on a relatively modest budget compared to other space agencies. The organization receives its funding from the Government of India, which allocates a certain amount each year for its operations and missions. Despite its limited financial resources, ISRO has demonstrated cost-effective solutions and efficient use of funds, making it a model for other space agencies globally.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-5-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-6 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                    <b>Module-6: ISRO's Satellite Communication</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    One of ISRO's primary objectives is to provide communication services through satellites. It launched its first communication satellite, APPLE (Ariane Passenger Payload Experiment), on June 19, 1981, aboard the European Space Agency's Ariane 1 rocket. Since then, ISRO has developed a series of communication satellites, including INSAT and GSAT, which have played a crucial role in enhancing telecommunication, broadcasting, and internet services across India and neighboring regions.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-6-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-7 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                    <b>Module-7: ISRO's Remote Sensing Missions</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    Remote sensing is a crucial application of space technology that involves capturing data from space to monitor and study the Earth's surface and atmosphere. ISRO has been actively engaged in remote sensing missions and has launched a series of satellites, such as IRS (Indian Remote Sensing) and Cartosat, to collect valuable information for agricultural planning, disaster management, urban development, and environmental monitoring.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-7-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-8 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                    <b>Module-8: ISRO's Mars Orbiter Mission (Mangalyaan)</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    Mangalyaan, also known as the Mars Orbiter Mission (MOM), is one of ISRO's most remarkable achievements. Launched on November 5, 2013, Mangalyaan was India's first interplanetary mission and made India the first Asian nation to reach Martian orbit. The mission aimed to study the Martian atmosphere, surface, and mineralogy, and it provided valuable insights into the Red Planet's scientific and environmental aspects.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-8-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-9 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
+                    <b>Module-9: ISRO's Global Collaborations</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO actively engages in international collaborations to foster space research, share knowledge, and promote global cooperation in space exploration. It has established partnerships with various countries and space agencies worldwide. ISRO's collaboration with NASA, ESA, and other space organizations has led to joint missions, technology exchanges, and valuable scientific advancements.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-9-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-10 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
+                    <b>Module-10: ISRO's Launch Vehicles - GSLV and PSLV</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO has developed two primary launch vehicles: GSLV (Geosynchronous Satellite Launch Vehicle) and PSLV (Polar Satellite Launch Vehicle). GSLV is designed to launch satellites into geostationary orbits, while PSLV is primarily used for sun-synchronous and polar orbits. Both vehicles have proven to be highly reliable and have successfully launched numerous satellites for various applications, making India a prominent player in the global commercial satellite launch market.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-10-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-11 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseEleven">
+                    <b>Module-11: ISRO's Space Applications and Benefits to Society</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO's space applications have significantly benefited society across various sectors. Its remote sensing satellites have improved agricultural practices, disaster management, and environmental monitoring. Communication satellites have revolutionized telecommunication, broadcasting, and internet connectivity in remote and rural areas. Navigation satellites like NavIC have enhanced GPS services in the region, aiding transportation and disaster management. Additionally, space technology has contributed to education, healthcare, and national security, demonstrating its immense potential for uplifting the lives of millions.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-11-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-12 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwelve">
+                    <b>Module-12: ISRO's International Recognition and Awards</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO's exceptional achievements in space exploration have earned it international recognition and accolades. The organization has received prestigious awards, including the Gandhi Peace Prize, for its significant contributions to humanity through space technology. The successful Mars Orbiter Mission (Mangalyaan) and Chandrayaan missions have garnered praise from the global space community, cementing India's place as a key player in space exploration.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-12-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-13 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseThirteen">
+                    <b>Module-13: ISRO's Space Education and Outreach</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO has been actively involved in space education and outreach programs to promote space science and create awareness among students and the general public. The organization conducts workshops, lectures, and competitions to foster interest in science and space exploration. It collaborates with educational institutions and space agencies to develop space-related curriculum and nurture future talent in the field of space research and technology.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-13-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-14 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFourteen">
+                    <b>Module-14: ISRO's Space Technology Innovations</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO has been at the forefront of space technology innovations. It has developed cutting-edge technologies, including satellite propulsion systems, reusable launch vehicles, and miniaturized satellites. The development of cryogenic engines for GSLV and the successful demonstration of the Reusable Launch Vehicle - Technology Demonstrator (RLV-TD) are examples of ISRO's pioneering advancements. These innovations have not only reduced mission costs but also propelled India's space program into a new era of exploration.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-14-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-15 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFifteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFifteen">
+                    <b>Module-15: ISRO's Contributions to Earth and Planetary Sciences</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFifteen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    Apart from satellite communication and remote sensing, ISRO has made significant contributions to Earth and planetary sciences. Its missions, such as Chandrayaan and Mangalyaan, have provided valuable data on the Moon and Mars, respectively. The Moon Mineralogy Mapper on Chandrayaan-1 helped discover water molecules on the Moon's surface, while Mangalyaan's Mars Color Camera provided high-resolution images of the Martian surface. These missions have expanded our understanding of planetary bodies and their potential for supporting life.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-15-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-16 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSixteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseSixteen">
+                    <b>Module-16: ISRO's Space Debris Management</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSixteen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    As the space industry grows, so does the concern over space debris. ISRO has been proactive in managing space debris and ensuring responsible space operations. It actively tracks objects in space and collaborates with international agencies to avoid collisions with active satellites. Additionally, ISRO follows strict guidelines to deorbit defunct satellites and spent rocket stages to minimize space debris generation.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-16-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-17 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeventeen" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeventeen">
+                    <b>Module-17: ISRO's Space Exploration Beyond Mars</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeventeen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    India's space agency, the Indian Space Research Organisation (ISRO), has made significant strides in space exploration in recent years. In 2013, ISRO became the fourth country to successfully send a spacecraft to Mars orbit, with its Mars Orbiter Mission (MOM). MOM was a technological mission that demonstrated India's ability to send a spacecraft to Mars. <br>
+                    ISRO is now planning a number of ambitious space exploration missions, including Gaganyaan and Chandrayaan-3. <br><br>
+
+                    <strong>Gaganyaan</strong> <br>
+                    Gaganyaan is India's first human spaceflight mission. The mission is scheduled to launch in 2023 and will send three astronauts into orbit around the Earth. Gaganyaan will be a major milestone for India's space program, and will pave the way for future human spaceflight missions to the Moon and Mars. <br><br>
+
+                    <strong>Chandrayaan-3</strong> <br>
+                    Chandrayaan-3 is the third mission in India's Chandrayaan program, which is dedicated to the exploration of the Moon. Chandrayaan-3 is scheduled to launch in 2023 and will land a rover and lander on the Moon. The mission will study the Moon's surface and subsurface, and will also search for water ice. <br><br>
+
+                    <strong>Other Space Exploration Missions</strong> <br>
+                    In addition to Gaganyaan and Chandrayaan-3, ISRO is also planning a number of other space exploration missions. These include: <br>
+                    1. Aditya-L1: A solar mission that will study the Sun's atmosphere and magnetic field. <br>
+                    2. Aditya-U: A solar mission that will study the Sun's corona. <br>
+                    3. Shukrayaan-1: A mission to Venus that will study the planet's atmosphere and surface. <br>
+                    4. Aditya-Aruna: A mission to study the Sun's poles. <br>
+
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-17-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-18 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEighteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseEighteen">
+                    <b>Module-18: ISRO's Contributions to Global Disaster Management</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEighteen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO's space technology has been instrumental in global disaster management. Its remote sensing satellites provide real-time data for monitoring natural disasters like cyclones, floods, and earthquakes. This data is crucial for disaster preparedness, response, and relief operations. Additionally, ISRO's communication satellites play a vital role in facilitating communication during disaster situations when terrestrial networks are disrupted.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-18-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-19 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNineteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseNineteen">
+                    <b>Module-19: ISRO's Role in International Space Cooperation</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseNineteen" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    ISRO actively engages in international space cooperation and collaboration, promoting peaceful use of outer space and fostering global partnerships. It participates in joint missions, shares satellite data, and collaborates on research and technology development with other space agencies and countries. ISRO's commitment to international space cooperation has contributed to scientific advancements, knowledge sharing, and strengthening diplomatic ties between India and other nations.
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-19-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+              <!-- Module-20 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwenty" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwenty">
+                    <b>Module 20: ISRO's Future Missions and Ambitions</b>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwenty" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <strong>Knowledge Bite</strong><br>
+                    The Indian Space Research Organisation (ISRO) has a long and successful history of space exploration. In recent years, ISRO has made significant progress in developing new technologies and launching ambitious missions. <br><br>
+                    Some of ISRO's future missions include: <br>
+                    •	<strong>Aditya-L1:</strong> This mission will study the Sun from a vantage point in space. Aditya-L1 will be the first Indian mission to study the Sun in detail. <br>
+                    •	<strong>NISAR:</strong> This joint mission with NASA will use a radar to study Earth's surface and subsurface. NISAR will be the most powerful radar ever launched into space. <br>
+                    •	<strong>Mangalyaan-2:</strong> This mission will return to Mars to study the planet's surface and atmosphere. Mangalyaan-2 will be the first Indian mission to land on Mars. <br>
+                    •	<strong>Gaganyaan:</strong> This mission will send Indian astronauts into space for the first time. Gaganyaan will be a two-part mission, with an unmanned test flight followed by a manned flight. <br>
+                    •	<strong>Shukrayaan-1:</strong> This mission will study Venus, the hottest planet in the solar system. Shukrayaan-1 will be the first Indian mission to Venus. <br><br>
+                    These are just a few of the many future missions that ISRO is planning. ISRO is also working on developing new technologies, such as reusable launch vehicles and space telescopes. These technologies will enable ISRO to undertake even more ambitious missions in the future.
+
+                  </div>
+                  <button type="button" class="btn btn-primary module-btn quiz-20-btn">Take The Quiz!</button>
+                </div>
+              </div>
+
+            </div>
+          </section>
+        </section>
+
+        <!-- Horizontal-Rule -->
+        <div class="hor-rule">
+          <hr class="line">
+        </div>
+
+        <!-- External-Content -->
+        <section id="external-content" class="external-content">
+          <h1 class="learnpage-title">External Content</h1>
+          <p class="learnpage-para">Discover a curated selection of external resources from the web, carefully chosen to expand your knowledge about ISRO. Dive into an abundance of valuable information to deepen your understanding of India's space program.</p>
+
+          <!-- 1 -->
+          <div class="card">
+            <div class="card-header">
+              Jagran Josh
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">List of ISRO Chairman 2023</h5>
+              <p class="card-text">Name, Tenure and Other Important Facts</p>
+              <a href="https://www.jagranjosh.com/general-knowledge/list-of-isro-chairmen-1516281232-1" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="card">
+            <div class="card-header">
+              ISRO
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">ISRO's Website</h5>
+              <p class="card-text">Indian Space Research Organisation, Department of Space</p>
+              <a href="https://www.isro.gov.in/" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="card">
+            <div class="card-header">
+              YouTube
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chandrayaan-3 LIVE TRACKER</h5>
+              <p class="card-text">Track Everything that Chandrayaan-3 is doing through this Live Stream!</p>
+              <a href="https://www.youtube.com/watch?v=dGCZwn_l9Zg" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="card">
+            <div class="card-header">
+              YouTube
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chandrayaan 3 Launch | ISRO Chandrayaan 3 Mission To The Moon</h5>
+              <p class="card-text">Understand the whole mission of Chandrayaan-3, though this Live Stream!</p>
+              <a href="https://www.youtube.com/watch?v=hotLcNvS_VA" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="card">
+            <div class="card-header">
+              WikiPedia
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">ISRO</h5>
+              <p class="card-text">This is the WikiPedia page for the Indian Space Research Organisation. Dive into Each and every aspect of this spetacular institution.</p>
+              <a href="https://en.wikipedia.org/wiki/ISRO" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="card">
+            <div class="card-header">
+              ISRO
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">ISRO Centres and Units</h5>
+              <p class="card-text">Here you get to know about all the ISRO centres at present.</p>
+              <a href="https://www.isro.gov.in/isro_centre.html" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="card">
+            <div class="card-header">
+              WION
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Who is S Somanath?</h5>
+              <p class="card-text">Here’s all you need to know about newly appointed ISRO Chairman</p>
+              <a href="https://www.wionews.com/india-news/who-is-s-somanath-heres-all-you-need-to-know-about-newly-appointed-isro-chairman-444197" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="card">
+            <div class="card-header">
+              ISRO
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Space Commission</h5>
+              <p class="card-text">Get knowledge about the current commission at ISRO</p>
+              <a href="https://www.isro.gov.in/SpaceCommision.html" target="_blank" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+
+        </section>
+
+
+
+        
+
+        <!-- Footer -->
+        <section class="footer">
+          <footer>
+            <div class="content">
+              <div class="top">
+                <div class="logo-details">
+                  <img class="logo-footer" src="Assets\LOGO\logo_white.png" alt="logo"></i>
+                </div>
+                <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+              <div class="link-boxes">
+                <ul class="box">
+                  <li class="link_name">Navigation</li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="learn.html">Learn</a></li>
+                  <li><a href="timeline.html">Time Line</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Navigation</li>
+                  <li><a href="biograpgy/index.html">Biographies</a></li>
+                  <li><a href="facilities.html">Facilities at ISRO</a></li>
+                  <li><a href="parallax/index.html">Chandrayaan-3</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Useful Links</li>
+                  <li><a href="https://www.isro.gov.in/" target="_blank">ISRO</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=dGCZwn_l9Zg" target="_blank">Chandrayaan-3 Live</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Educational Resouces</li>
+                  <li><a href="https://en.wikipedia.org/wiki/ISRO">ISRO WikiPedia</a></li>
+                  <li><a href="https://www.wionews.com/india-news/who-is-s-somanath-heres-all-you-need-to-know-about-newly-appointed-isro-chairman-444197" target="_blank">Who is S Somanath?</a></li>
+                  <li><a href="https://www.isro.gov.in/SpaceCommision.html">ISRO Space Commision</a></li>
+                </ul>
+                <ul class="box input-box">
+                  <li class="link_name">Subscribe</li>
+                  <li><input type="text" placeholder="Enter your email"></li>
+                  <li><input type="button" value="Subscribe"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom-details">
+              <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2023 <a href="#">BrandName.</a>All rights reserved</span>
+                <span class="policy_terms">
+                  <a href="#">Privacy policy</a>
+                  <a href="#">Terms & condition</a>
+                </span>
+              </div>
+            </div>          
+          </footer>
+        </section>
+        
+     <script src="JS\homepage.js"></script>
+     <script src="JS\navbar.js"></script>
+     <script src="JS\learn.js"></script>
+
+   </body>
+</html>
