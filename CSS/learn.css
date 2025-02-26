@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@400;500;800&family=Playfair+Display:wght@400;600&family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+} 
+body{
+  align-items: center;
+  justify-content: center;
+}
+/* Setting padding for website in mobile screen */
+.padding-other-than-navbar{
+  margin-left:80px;
+  padding: 0;
+  background-color: #0b0d19;
+}
+@media screen and (max-width: 786px){
+  .padding-other-than-navbar{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Hero-Section */
+.learn-title{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 4em;
+  font-family: 'Poiret One', cursive;
+}
+.learn-para{
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+@media screen and (max-width:786px) {
+  .learn-hero{
+    text-align: center;
+  }
+  .learn-bg{
+    margin: auto;
+  }
+}
+
+/* CTA_BTN*/
+.btn{
+  font-family: 'Poiret One', cursive;
+}
+.btn a{
+  position: relative;
+  color: #f5f5f5;
+  height: 70px;
+  width: 220px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+}
+.btn a:hover{
+  animation: rotate 0.4s linear infinite;
+}
+@keyframes rotate {
+  100%{
+    filter: hue-rotate(-360deg)
+  }
+}
+.btn a span{
+  height: 88%;
+  width: 96%;
+  background: #0b0d19;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 6px;
+  line-height: 62px;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+.cta-btn{
+  margin-left: -20px;
+}
+@media screen and (max-width: 786px){
+  .cta-btn{
+    justify-content: center;
+    margin-left: 0;
+  }
+}
+
+/* Horizontal-Rule */
+.line{
+  color: #fff;
+  border-width: 2px;
+  width: 30%;
+  z-index: 2;
+  margin: 0 auto 0 auto;
+
+}
+.hor-rule{
+  background-color: #0b0d19;
+  margin: 0;
+}
+
+/* Heading and para */
+.learnpage-title{
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  background-color: #0b0d19;
+  color: #fff;
+  padding-top: 20px;
+}
+.learnpage-para{
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  background-color: #0b0d19;
+  color: #fff;
+}
+
+@media screen and (max-width:786px) {
+  .learnpage-para{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* Our-Content */
+.our-content{
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.module-btn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* External-Content */
+.external-content{
+  padding: 15px 20px 40px 20px;
+}
+
+.external-content .card{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
